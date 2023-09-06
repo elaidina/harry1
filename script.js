@@ -299,8 +299,8 @@ correct: "a",
         
                   
                   <li>
-                  <h4>Správná odpověď: ${question[quizData[i].correct]}</h4>
-                <h4>Vybral jsi: ${question[answers[i]]}</h4>
+                  <h4>Correct answer: ${question[quizData[i].correct]}</h4>
+                <h4>You chose: ${question[answers[i]]}</h4>
   
                 
                   </li>
@@ -323,7 +323,7 @@ correct: "a",
   
   
             quiz.innerHTML = `
-                <h2>Získal jsi ${score} bodů z ${quizData.length}.</h2>
+                <h2>You got ${score} points out of ${quizData.length}.</h2>
                
   
                 
@@ -335,7 +335,7 @@ correct: "a",
   
                 
   
-                <button onclick="location.reload()">Znovu zkusit</button>
+                <button onclick="location.reload()">Try again.</button>
             `
         
         
