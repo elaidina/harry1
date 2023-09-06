@@ -10,195 +10,197 @@ const quizData = [
     {
       question: "Dudley is ...",
       a: "... Harry´s cousin.",
-      b: "...",
-      
-      correct: "b",
+      b: "... Harry´s pet.",
+      c: "... Harry´s brother.",
+      correct: "a",
   },
   {
-    question: "3. Barman",
-    a: "připravuje koktejly a míchané nápoje.",
-    b: "trénuje psy a kočky.",
-    
+    question: "You-Know-Who´s name is...",
+    a: "... Voldemort.",
+    b: "... Fluffy.",
+    c: "... Hagrid.",
     correct: "a",
 },
 {
-  question: "4. Chirurg",
-  a: "provádí operace v nemocnici.",
-  b: "pěstuje květy k prodeji.",
-  
-  correct: "a",
+  question: "The Dursley family lives ...",
+  a: "... in the Zoo.",
+  b: "... in Hogwarts.",
+  c: "... at Privet Drive.",
+  correct: "c",
 },{
-  question: "5. Policista",
-  a: "dohlíží na dodržování zákonů.",
-  b: "maluje stěny pokojů.",
-  
+  question: "The headmaster of Hogwarts is ...",
+  a: "... Professor McGonagall.",
+  b: "... Albus Dumbledore.",
+  c: "... Ron Weasley.",
+  correct: "b",
+},
+{
+question: "Hagrid brought baby Harry on the motorcycle borrowed from ...  ",
+a: "... Mrs. Figg.",
+b: "... Sirius Black.",
+c: "... Lucius Malfoy.",
+correct: "b",
+},{
+  question: "A muggle is ... ",
+  a: "... someone extraordinary smart.",
+  b: "... a big mushroom.",
+  c: "... a person who does not have any magical powers.",
+  correct: "c",
+},
+{
+question: "Harry´s scar on his forehead was made by...",
+a: "... Lord Voldemort.",
+b: "... baby Dudley.",
+c: "... the snake at the Zoo.",
+correct: "a",
+},{
+  question: "Uncle Vernon ...",
+  a: "... had 10 children.",
+  b: "... didn´t want Harry to get his letter from Hogwarts.",
+  c: "... was a big fan of magic.",
+  correct: "b",
+},
+{
+question: "Harry was able to ...",
+a: "... talk to snakes and understand their language.",
+b: "... fly without a broom.",
+c: "... grow faster than everybody else.",
+correct: "a",
+},{
+  question: "Hagrid brought a cake for Harry´s ...",
+  a: "... 10th birthday.",
+  b: "... 11th birthday.",
+  c: "... wedding.",
+  correct: "b",
+},
+{
+question: "Harry bought his school things and his wand ...",
+a: "... in the platform 9 and 3/4.",
+b: "... in the Gringotts bank.",
+c: "... in the Diagon Alley.",
+correct: "c",
+},{
+  question: "Griphook was ...",
+  a: "... an owl.",
+  b: "... a goblin.",
+  c: "... a rat.", 
+  correct: "b",
+},
+{
+question: "Mr. Ollivander was selling ...",
+a: "...wizarding books.",
+b: "... cauldrons.",
+c: "... wands.",
+correct: "c",
+},{
+  question: "Harry got Hedwig from ...",
+  a: "... Hagrid.",
+  b: "... Azkaban.",
+  c: "... Dudley.",
   correct: "a",
 },
 {
-question: "6. Pediatr ",
-a: "natáčí filmy o zvířatech.",
-b: "je lékař pro děti.",
+question: "The twinn of George Weasley was ...",
+a: "...Ron.",
+b: "...Percy.",
+c: "... Fred.",
+correct: "c",
+},{
+  question: "Nicolas Flamel...",
+  a: "... was Dumbledore´s friend.",
+  b: "... was the Professor of Potions.",
+  c: "... was the real name of Lord Voldemort.",
+  correct: "a",
+},
+{
+question: "Crabbe and Goyle were friends of ...",
+a: "... Hermione Granger.",
+b: "... Draco Malfoy.",
+c: "... Neville Longbottom.",
+
 
 correct: "b",
 },{
-  question: "7. Řidič",
-  a: "prodává houby na trhu.",
-  b: "se živí řízením dopravních prostředků.",
-  
-  correct: "b",
-},
-{
-question: "8. Režisér",
-a: "řídí natáčení filmů.",
-b: "pracuje na recepci hotelů.",
-
-correct: "a",
-},{
-  question: "9. Tanečník",
-  a: "dohlíží na děti ve školce.",
-  b: "se živí tancem na tanečních vystoupeních.",
-  
-  correct: "b",
-},
-{
-question: "10. Zlatník",
-a: "navrhuje a vyrábí šperky.",
-b: "šije šaty pro celebrity.",
-
-correct: "a",
-},{
-  question: "11. Automechanik",
-  a: "dělá opravy na autách.",
-  b: "pracuje v cirkuse u zvířat.",
-  
+  question: "The sorting hat put Harry to ...",
+  a: "... Gryffindor.",
+  b: "... Hufflepuff.",
+  c: "... Rawenclaw.",
   correct: "a",
 },
 {
-question: "12. Celník",
-a: "kontroluje zboží převáženo přes hranice.",
-b: "vyrábí a prodává parfémy.",
-
-correct: "a",
-},{
-  question: "13. Diabetolog",
-  a: "se věnuje nechtovému dizajnu.",
-  b: "se stará o pacienty s cukrovkou.",
-  
-  correct: "b",
+question: "The cat of Mr. Filch was called...",
+a: "... Fat Lady.",
+b: "... Peaves.",
+c: "... Mrs. Norris.",
+correct: "c",
 },
-{
-question: "14. Učitel",
-a: "učí děti ve škole.",
-b: "kreslí ilustrace do knížek.",
-
-correct: "a",
-},{
-  question: "15. Řezník",
-  a: "zpracovává a prodává výrobky z masa.",
-  b: "peče vánoční cukroví pro slony.",
-  
-  correct: "a",
-},
-{
-question: "16. Matematik",
-a: "řeší složité matematické problémy.",
-b: "píše dopisy mravencům.",
-
-correct: "a",
-},{
-  question: "17. Aranžér",
-  a: "odšťavuje ovoce a prodává ovocné šťávy.",
-  b: "organizuje a zdobí prostory dekoracemi k upoutání pozornosti zákazníka.",
-  
-  correct: "b",
-},
-{
-question: "18. Laborant",
-a: "trénuje sportovce na soutěže.",
-b: "pracuje s chemikáliemi v laboratoři.",
-
-correct: "b",
-},{
-  question: "19. Kadeřnice",
-  a: "stříhá vlasy a dělá účesy.",
-  b: "pečuje o seniory v domově důchodců.",
-  
-  correct: "a",
-},
-{
-question: "20. Klempíř ",
-a: "zhotovuje a opravuje výrobky z plechu.",
-b: "sadí ovocné stromy.",
-
-correct: "a",
-},
-{
+/* {
   question: "21. Zpěvák",
   a: "zpívá písničky na koncertech.",
   b: "opravuje pokazené elektrické přístroje.",
-  
+  c: "... Harry´s daughter.",
   correct: "a",
 },
 {
 question: "22. Statistik",
 a: "provádí turisty v pralese.",
 b: "používá matematické modely k vyhodnocování informací.",
-
+c: "... Harry´s daughter.",
 correct: "b",
 },
 {
 question: "23. Otorinolaryngolog",
 a: "je doktor, který léčí nemoci nosu, uší a krku.",
 b: "píše články do novin a časopisů.",
-
+c: "... Harry´s daughter.",
 correct: "a",
 },
 {
 question: "24. Soudce",
 a: "rozhoduje právní spory.",
 b: "kontroluje jízdenky ve vlaku.",
-
+c: "... Harry´s daughter.",
 correct: "a",
 },{
 question: "25. Editor",
 a: "zodpovídá za obsah a formu článků v médiích.",
 b: "řídí letadlo.",
-
+c: "... Harry´s daughter.",
 correct: "a",
 },
 {
 question: "26. Radiolog",
 a: "slouží mše v kostele.",
 b: "vyhodnocuje rentgeny a ultrazvuky pacientů.",
-
+c: "... Harry´s daughter.",
 correct: "b",
 },{
 question: "27. Tlumočník",
 a: "dělá překlady z jedné řeči do druhé.",
 b: "natáčí videa na Youtube.",
-
+c: "... Harry´s daughter.",
 correct: "a",
 },
 {
 question: "28. Archeolog",
 a: "zkoumá vykopávky a nálezy z minulosti.",
 b: "pracuje v bance u pokladny.",
-
+c: "... Harry´s daughter.",
 correct: "a",
 },{
 question: "29. Detektiv",
 a: "je specialista na výživu.",
 b: "pátrá po stopách zločinců.",
-
+c: "... Harry´s daughter.",
 correct: "b",
 },
 {
 question: "30. Recepční",
 a: "pracuje v hoteli na recepci.",
 b: "vymýšlí a navrhuje reklamy. ",
-
+c: "... Harry´s daughter.",
 correct: "a",
-}
+} */
     
   ];
   
